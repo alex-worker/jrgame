@@ -6,7 +6,6 @@
 - Node.js (Express.js)
 - Socket.io
 - Phaser 3
-- Parcel
 
 ## Author
 [Jacky Rusly](https://www.jackyrusly.web.id)

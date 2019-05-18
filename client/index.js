@@ -13,7 +13,7 @@ const config = {
         default: 'arcade',
         arcade: {
             gravity: { y: 0 },
-            debug: false,
+            // debug: false,
         },
     },
     scene: [Init, Town, House_1, House_2],
