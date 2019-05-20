@@ -13,13 +13,13 @@ class Init extends Scene {
     }
 
     preload() {
-        this.load.tilemapTiledJSON(MAP_TOWN, 'assets/maps/town.json');
-        this.load.tilemapTiledJSON(MAP_HOUSE_1, 'assets/maps/house-1.json');
-        this.load.tilemapTiledJSON(MAP_HOUSE_2, 'assets/maps/house-2.json');
+        this.load.tilemapTiledJSON(MAP_TOWN, 'maps/town.json');
+        this.load.tilemapTiledJSON(MAP_HOUSE_1, 'maps/house-1.json');
+        this.load.tilemapTiledJSON(MAP_HOUSE_2, 'maps/house-2.json');
         
-        this.load.spritesheet(IMAGE_HOUSE, 'assets/maps/house.png', { frameWidth: 32, frameHeight: 32 });
-        this.load.spritesheet(IMAGE_TOWN, 'assets/maps/town.png', { frameWidth: 32, frameHeight: 32 });
-        this.load.spritesheet(IMAGE_PLAYER, 'assets/sprites/player.png', { frameWidth: 32, frameHeight: 32 });
+        this.load.spritesheet(IMAGE_HOUSE, 'maps/house.png', { frameWidth: 32, frameHeight: 32 });
+        this.load.spritesheet(IMAGE_TOWN, 'maps/town.png', { frameWidth: 32, frameHeight: 32 });
+        this.load.spritesheet(IMAGE_PLAYER, 'sprites/player.png', { frameWidth: 32, frameHeight: 32 });
 
         /* this.load.audio('music-town', ['assets/music/town.mp3']); */
 

@@ -18,7 +18,6 @@ server.listen(port, () => {
     console.log(`App now listening on port ${port}`);
 });
 
-
 io.on('connection', function (socket) {
     Player.onConnect(io, socket);
 
